@@ -3,26 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+body, button{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
 
-/* Menu*/
+/* Menu e Header */
 header{
     background-image: url('../img/header-bg.png');
     background-size: cover;
     background-position: center;
-    height: 200px;
+}
+#logo{
+    width: 140px;
+    margin-left: 140px;
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1d2037;
-}
-#logo{
-    width: 140px;
+    background-color: #1b1e33;
 }
 nav ul{
     display: flex;
     list-style: none;
+    margin-right: 150px;
 }
 nav li{
     margin: 0 20px;
@@ -32,4 +39,52 @@ nav li{
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
+}
+header section{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+header section h1{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+header button{
+    background: #35bab5;
+    font-size: 1.1rem;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px 60px;
+}
+
+/* Main */
+main{
+    display: flex;
+    justify-content:flex-start;
+}
+#foto-perfil{
+    width: 300px;
+    height: 300px;
+    margin-left: 150px;
+    margin-top: 40px;
+    border-radius: 150px;
+}
+
+main h1{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+main p{
+    width: 900px;
+    margin-left: 20px;
+    font-size: 1.2rem;
 }
