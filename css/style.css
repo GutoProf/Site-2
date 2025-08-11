@@ -64,7 +64,7 @@ header button{
 }
 
 /* Main */
-main{
+#container-sobre-mim{
     display: flex;
     justify-content:flex-start;
 }
